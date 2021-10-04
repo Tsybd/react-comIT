@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+}
+
+.button {
+	cursor: pointer;
+	font: inherit;
+	border: none;
+	background-color: rgb(151, 30, 8);
+	color: white;
+	padding: 1rem 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 25px;
+	font-weight: bold;
+	height: 3rem;
+}
+
+.button:hover,
+.button:active {
+	background-color: rgb(102, 20, 4);
+}
+
+.icon {
+	width: 1.35rem;
+	height: 1.35rem;
+	margin-right: 0.5rem;
+}
+
+.badge {
+	background-color: rgb(250, 3, 3);
+	padding: 0.25rem 1rem;
+	border-radius: 25px;
+	margin-left: 1rem;
+	font-weight: bold;
+}
+
+/* .button:hover .badge,
+.button:active .badge {
+	background-color: rgb(158, 9, 9);
+} */
